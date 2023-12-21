@@ -1,9 +1,5 @@
 from __future__ import absolute_import, division, print_function
 
-import os
-os.environ['KMP_DUPLICATE_LIB_OK']='True'
-os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"   
-os.environ["CUDA_VISIBLE_DEVICES"]="0"
 
 import time
 import torch.optim as optim
@@ -145,8 +141,7 @@ class Trainer:
         print("Training is using:\n  ", self.device)
 
         # data
-        datasets_dict = {"infra": datasets.INFRADataset,
-                         "kitti": datasets.KITTIRAWDataset,
+        datasets_dict = {"kitti": datasets.KITTIRAWDataset,
                          "kitti_odom": datasets.KITTIOdomDataset}
         self.dataset = datasets_dict[self.opt.dataset]
 
