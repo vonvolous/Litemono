@@ -1,6 +1,6 @@
 # Litemono
 
-## How to train
+## Setting
 ### 공통 설치 항목
 
 ```bash
@@ -40,4 +40,6 @@ $ pip install git+https://github.com/saadnaeem-dev/pytorch-linear-warmup-cosine-
     |  |  |...
     |  |  |--s_125/
     |  |  |  |--0000000000.jpg
-  
+
+## Training
+
