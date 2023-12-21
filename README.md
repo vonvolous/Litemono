@@ -42,4 +42,5 @@ $ pip install git+https://github.com/saadnaeem-dev/pytorch-linear-warmup-cosine-
     |  |  |  |--0000000000.jpg
 
 ## Training
-
+```
+$ CUDA_VISIBLE_DEVICES=0 python train.py --batch_size 14 --num_epochs 20 --model_name {train_model_name} --data_path=../data --dataset=infra
