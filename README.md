@@ -42,5 +42,13 @@ $ pip install git+https://github.com/saadnaeem-dev/pytorch-linear-warmup-cosine-
     |  |  |  |--0000000000.jpg
 
 ## Training
+- data_path에는 dataset의 경로를 넣어주고 dataset에는 train에 사용할 데이터셋의 종류를 넣어준다.
 ```
 $ CUDA_VISIBLE_DEVICES=0 python train.py --batch_size 14 --num_epochs 20 --model_name {train_model_name} --data_path=../data --dataset=infra
+```
+
+- custom dataset을 train에 사용하는 방법
+  1. create own dataset class inheriting from datasets/mono_dataset.py
+  2. build your own dataset, and create a new split file
+  3. add your dataset class in init.py and trainer.py(datasets_dict)
+
