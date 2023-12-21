@@ -22,6 +22,7 @@ $ pip install git+https://github.com/saadnaeem-dev/pytorch-linear-warmup-cosine-
 ## Dataset
 - 데이터셋 구조
   - 폴더명과 파일 이름을 다음과 같이 수정해주었음
+    ```bash
   |-data/
   |  |--infra/
   |  |  |--s_1/
@@ -39,5 +40,7 @@ $ pip install git+https://github.com/saadnaeem-dev/pytorch-linear-warmup-cosine-
   |  |  |...
   |  |  |--s_125/
   |  |  |  |--0000000000.jpg
+  ```
+
 
   
