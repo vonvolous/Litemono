@@ -2,7 +2,8 @@
 
 ## Setting
 ### 공통 설치 항목
-
+- 실험 환경 : Ubuntu 18.04 CUDA 9.1
+  
 ```bash
 $ conda create -n monodepth2 python=3.6.6 anaconda
 $ pip3 install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio===0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
