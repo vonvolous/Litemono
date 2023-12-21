@@ -18,3 +18,26 @@ $ conda install opencv=3.3.1   # just needed for evaluation
 $ pip install timm thop
 $ pip install git+https://github.com/saadnaeem-dev/pytorch-linear-warmup-cosine-annealing-warm-restarts-weight-decay
 ```
+
+## Dataset
+- 데이터셋 구조
+  - 폴더명과 파일 이름을 다음과 같이 수정해주었음
+  |-data/
+  |  |--infra/
+  |  |  |--s_1/
+  |  |  |  |--0000000000.jpg
+  |  |  |--s_2/
+  |  |  |  |--0000000000.jpg
+  |  |  |...
+  |  |  |--s_198/
+  |  |  |  |--0000000000.jpg
+  |  |--rgb/
+  |  |  |--s_1/
+  |  |  |  |--0000000000.jpg
+  |  |  |--s_2/
+  |  |  |  |--0000000000.jpg
+  |  |  |...
+  |  |  |--s_125/
+  |  |  |  |--0000000000.jpg
+
+  
