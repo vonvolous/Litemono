@@ -1,5 +1,8 @@
 # Litemono
 
+reference
+https://github.com/noahzn/Lite-Mono
+
 ## Setting
 ### 공통 설치 항목
 - 실험 환경 : Ubuntu 18.04 CUDA 9.1
